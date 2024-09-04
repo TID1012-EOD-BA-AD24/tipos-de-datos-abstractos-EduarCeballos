@@ -6,4 +6,8 @@ public class Persona {
     private Fecha FechaNacimiento;
     //coloca aquí el código faltante
     
+    
+
+
+
 }
