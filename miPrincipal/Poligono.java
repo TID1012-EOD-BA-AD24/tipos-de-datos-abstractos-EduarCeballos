@@ -23,6 +23,7 @@ public class Poligono {
 			this.arreglo[i]=punto;
 		}
 		this.arreglo[N]=this.arreglo[0];	
+		entrada.close();
 	}
 	public void DesplegarArreglo() {
 		for (int i=0;i<this.arreglo.length-1;i++) {
@@ -46,7 +47,7 @@ public class Poligono {
 			perimetro+=this.arreglo[i].distancia(this.arreglo[i+1]);
 		}
 		return perimetro;
+	
 	}
 	
-
 }

@@ -41,10 +41,14 @@ public class AppCuenta_Cheques{
                     break;
                 default:
                     System.out.println("Opción no válida");
+                   //cierro de Scanner
+                    scanner.close();
             }
         }
     }
+    
 }
+
 
         
 

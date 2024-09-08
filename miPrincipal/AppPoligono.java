@@ -16,6 +16,7 @@ public class AppPoligono {
 		poligono.DesplegarArreglo();
 		System.out.println("Perimetro = "+poligono.calcularPerimetro());
         
+        entrada.close();
     }
 
 }
