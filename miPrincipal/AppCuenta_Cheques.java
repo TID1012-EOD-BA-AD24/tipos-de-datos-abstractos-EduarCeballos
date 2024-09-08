@@ -1,12 +1,11 @@
 package miPrincipal;
-
 import java.util.Scanner;
 
 public class AppCuenta_Cheques{
     public static void menu() throws Exception {
         Scanner scanner = new Scanner(System.in);
-        Cuenta_Cheques cuenta = new Cuenta_Cheques("Cuenta1", 
-                "Cliente1", "Sucursal1");
+        Cuenta_Cheques cuenta = new Cuenta_Cheques
+        ("Cuenta1", "Cliente1", "Sucursal1");
 
         System.out.println("==================================");
         System.out.println("    Operaciones con Cuenta Cheques");
@@ -44,8 +43,9 @@ public class AppCuenta_Cheques{
                     System.out.println("Opción no válida");
             }
         }
-        
     }
+}
+
+        
 
     
-}
